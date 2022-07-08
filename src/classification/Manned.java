@@ -17,11 +17,11 @@ public class Manned extends Spaceship{
     }
     @Override
     public void purpose() {
-        System.out.println("Experimentación");
+        System.out.println("Su propósito consiste en mandar seres humanos al espacio para tareas de reparación, mantenimiento o investigación");
     }
 
     @Override
     public void fuelType() {
-
+        System.out.println("Estos naves funcionan mediante combustible químico sólido o propelente líquido");
     }
 }
