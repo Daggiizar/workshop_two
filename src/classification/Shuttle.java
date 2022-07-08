@@ -1,4 +1,5 @@
 package classification;
 
-public class Shuttle {
+public class Shuttle extends Spaceship{
+
 }
