@@ -11,7 +11,8 @@ public class Main {
         do {
 
             Scanner scanner = new Scanner(System.in);
-            System.out.println(" Bienvenido explorador! Escoja el tipo de vehiculo espacial a conocer\n"
+            System.out.println("Bienvenido acá econtrara información clasificada sobre las naves espaciales mas grandes de la historia\n"
+                    + "Seleccione la nave que desea conocer\n"
                     + "1. Lanzadera\n"
                     + "2. Tripulados\n"
                     + "3. No Tripulados\n"
@@ -20,7 +21,8 @@ public class Main {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("Bienvenido aca se encuentran los vehículos Lanzadera mas fuertes\n"
+                    System.out.println("Estas son las naves lanzadera mas fuertes\n"
+                            + "Seleccione la nave que desea conocer\n"
                             + "1. Saturno V\n"
                             + "2. Energía\n"
                             + "3. Ariane V\n"
@@ -40,13 +42,21 @@ public class Main {
                                     118
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            shuttle1.purpose();
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             System.out.println("La primera Lanzadera fue " + shuttle1.getName()
                                     + " Fabricada en " + shuttle1.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
+                            shuttle1.purpose();
                             System.out.println("Esta nave fue lanzada en el año de: " + shuttle1.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + shuttle1.getActualState());
+                                    + "\nactualmente se encuentra: " + shuttle1.getActualState()
+                                    + "\nEl peso de este gigante era de:  " + shuttle1.getShipWeight() + " Toneladas"
+                                    + "\nSu empuje era de: " + shuttle1.getPush() + " Toneladas"
+                                    + "\nTenia una capacidad de transporte de: " + shuttle1.getLoadWeight() + " Toneladas"
+                                    );
                             shuttle1.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         case 2:
                             Shuttle shuttle2 = new Shuttle(
@@ -59,13 +69,21 @@ public class Main {
                                     100
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println("La lanzadera " + shuttle2.getName()
+                                    + " fue fabricada entre " + shuttle2.getMaker());
                             shuttle2.purpose();
-                            System.out.println("La segunda Lanzadera fue " + shuttle2.getName()
-                                    + " Fabricada en " + shuttle2.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + shuttle2.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + shuttle2.getActualState());
+                                    + "\nactualmente se encuentra: " + shuttle2.getActualState()
+                                    + "\nEl peso de este gigante era de:  " + shuttle2.getShipWeight() + " Toneladas"
+                                    + "\nSu empuje era de: " + shuttle2.getPush() + " Toneladas"
+                                    + "\nTenia una capacidad de transporte de: " + shuttle2.getLoadWeight() + " Toneladas"
+                            );
                             shuttle2.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         case 3:
                             Shuttle shuttle3 = new Shuttle(
@@ -78,13 +96,21 @@ public class Main {
                                     178
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println("La lanzadera " + shuttle3.getName()
+                                    + " fue fabricada por " + shuttle3.getMaker());
                             shuttle3.purpose();
-                            System.out.println(shuttle3.getName()
-                                    + " fue la primera lanzadera fabricada en " + shuttle3.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + shuttle3.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + shuttle3.getActualState());
+                                    + "\nactualmente se encuentra: " + shuttle3.getActualState()
+                                    + "\nEl peso de este gigante era de:  " + shuttle3.getShipWeight() + " Toneladas"
+                                    + "\nSu empuje era de: " + shuttle3.getPush() + " Toneladas"
+                                    + "\nTenia una capacidad de transporte de: " + shuttle3.getLoadWeight() + " Toneladas"
+                            );
                             shuttle3.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         case 4:
                             Shuttle shuttle4 = new Shuttle(
@@ -97,14 +123,21 @@ public class Main {
                                     180
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            System.out.println("------------------------Contenido clasificado------------------");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println("La lanzadera " + shuttle4.getName()
+                                    + " fue fabricada por " + shuttle4.getMaker());
                             shuttle4.purpose();
-                            System.out.println(shuttle4.getName()
-                                    + " fue la primera lanzadera fabricada en " + shuttle4.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + shuttle4.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + shuttle4.getActualState());
+                                    + "\nactualmente se encuentra: " + shuttle4.getActualState()
+                                    + "\nEl peso de este gigante era de:  " + shuttle4.getShipWeight() + " Toneladas"
+                                    + "\nSu empuje era de: " + shuttle4.getPush() + " Toneladas"
+                                    + "\nTenia una capacidad de transporte de: " + shuttle4.getLoadWeight() + " Toneladas"
+                            );
                             shuttle4.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         default:
                             System.out.println("La opción no existe");
@@ -113,7 +146,8 @@ public class Main {
                     break;
 
                 case 2:
-                    System.out.println("Bienvenido acá se encuentran los vehículos tripulados más importantes \n"
+                    System.out.println("Estas son las principales naves tripuladas \n"
+                            + "Seleccione la nave que desea conocer\n"
                             + "1. Skylab\n"
                             + "2. Salyut\n"
                             + "3. EEI\n"
@@ -133,14 +167,21 @@ public class Main {
                                     435
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            System.out.println("------------------------Contenido clasificado------------------");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println(manned1.getName() + " es una de las primeras naves tripuladas "
+                                    + " construida por " + manned1.getMaker());
                             manned1.purpose();
-                            System.out.println(manned1.getName()
-                                    + " fue la primera lanzadera fabricada en " + manned1.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + manned1.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + manned1.getActualState());
+                                    + "\nActualmente se encuentra: " + manned1.getActualState());
+                            System.out.println("Su principal objetivo era la: " + manned1.getObjective()
+                                    + "\nOrbitaba a: " + manned1.getOrbitDistance() + "Km"
+                                    + "\nSu capacidad era de: " + manned1.getPassengerCapacity() + " pasajeros"
+                                     );
                             manned1.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         case 2:
                             Manned manned2 = new Manned(
@@ -153,14 +194,21 @@ public class Main {
                                     248.9
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            System.out.println("------------------------Contenido clasificado------------------");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println(manned2.getName() + " es una de las primeras naves tripuladas "
+                                    + " construida por " + manned2.getMaker());
                             manned2.purpose();
-                            System.out.println(manned2.getName()
-                                    + " fue la primera lanzadera fabricada en " + manned2.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + manned2.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + manned2.getActualState());
+                                    + "\nActualmente se encuentra: " + manned2.getActualState());
+                            System.out.println("Su principal objetivo era la: " + manned2.getObjective()
+                                    + "\nOrbitaba a: " + manned2.getOrbitDistance() + "Km"
+                                    + "\nSu capacidad era de: " + manned2.getPassengerCapacity() + " pasajeros"
+                            );
                             manned2.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         case 3:
                             Manned manned3 = new Manned(

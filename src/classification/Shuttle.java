@@ -20,7 +20,7 @@ public class Shuttle extends Spaceship {
 
     @Override
     public void purpose() {
-        System.out.println("Su objetivo es lanzar una carga útil al espacio");
+        System.out.println("Su objetivo es lanzar una carga útil al espacio.");
     }
 
     @Override

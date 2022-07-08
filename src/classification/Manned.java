@@ -22,6 +22,6 @@ public class Manned extends Spaceship{
 
     @Override
     public void fuelType() {
-        System.out.println("Estos naves funcionan mediante combustible químico sólido o propelente líquido");
+        System.out.println("Estas naves funcionan mediante combustible químico sólido o propelente líquido");
     }
 }
