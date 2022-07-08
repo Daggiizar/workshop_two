@@ -221,14 +221,21 @@ public class Main {
                                     386
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            System.out.println("------------------------Contenido clasificado------------------");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println(manned3.getName() + " es una de las primeras naves tripuladas "
+                                    + "construida en un " + manned3.getMaker());
                             manned3.purpose();
-                            System.out.println(manned3.getName()
-                                    + " fue la primera lanzadera fabricada en " + manned3.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + manned3.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + manned3.getActualState());
+                                    + "\nActualmente se encuentra: " + manned3.getActualState());
+                            System.out.println("Su principal objetivo era la: " + manned3.getObjective()
+                                    + "\nOrbitaba a: " + manned3.getOrbitDistance() + "Km"
+                                    + "\nSu capacidad era de: " + manned3.getPassengerCapacity() + " pasajeros"
+                            );
                             manned3.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         case 4:
                             Manned manned4 = new Manned(
@@ -241,14 +248,21 @@ public class Main {
                                     395
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            System.out.println("------------------------Contenido clasificado------------------");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println(manned4.getName() + " es una de las primeras naves tripuladas "
+                                    + "construida por " + manned4.getMaker());
                             manned4.purpose();
-                            System.out.println(manned4.getName()
-                                    + " fue la primera lanzadera fabricada en " + manned4.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + manned4.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + manned4.getActualState());
+                                    + "\nActualmente se encuentra: " + manned4.getActualState());
+                            System.out.println("Su principal objetivo era la: " + manned4.getObjective()
+                                    + "\nOrbitaba a: " + manned4.getOrbitDistance() + "Km"
+                                    + "\nSu capacidad era de: " + manned4.getPassengerCapacity() + " pasajeros"
+                            );
                             manned4.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         default:
                             System.out.println("La opción no existe");
@@ -276,14 +290,20 @@ public class Main {
                                     7
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            System.out.println("------------------------Contenido clasificado------------------");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println("La sonda " + unmanned1.getName()
+                                    + " fue un proyecto ejecutado conjuntamente por " + unmanned1.getMaker());
                             unmanned1.purpose();
-                            System.out.println(unmanned1.getName()
-                                    + " fue la primera lanzadera fabricada en " + unmanned1.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + unmanned1.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + unmanned1.getActualState());
+                                    + "\nActualmente se encuentra: " + unmanned1.getActualState()
+                                    + "\nCuerpo celeste estudiado: " + "Saturno y sus lunas"
+                                    + "\nSe desplazo a: " + unmanned1.getSpeed()
+                                    + "\nTardo casi " + unmanned1.getYearArrive() + " años en llegar a su destino");
                             unmanned1.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         case 2:
                             Unmanned unmanned2 = new Unmanned(
@@ -295,14 +315,20 @@ public class Main {
                                     4000000
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            System.out.println("------------------------Contenido clasificado------------------");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println("La sonda " + unmanned2.getName()
+                                    + " fue un proyecto ejecutado por " + unmanned2.getMaker());
                             unmanned2.purpose();
-                            System.out.println(unmanned2.getName()
-                                    + " fue la primera lanzadera fabricada en " + unmanned2.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + unmanned2.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + unmanned2.getActualState());
+                                    + "\nActualmente se encuentra: " + unmanned2.getActualState()
+                                    + "\nCuerpo celeste estudiado: " + "Júpiter"
+                                    + "\nSe quedo sin energía y " + unmanned2.getSpeed()
+                                    + "\nSe estima que llegara dentro de " + unmanned2.getYearArrive() + " años ");
                             unmanned2.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         case 3:
                             Unmanned unmanned3 = new Unmanned(
@@ -314,14 +340,20 @@ public class Main {
                                     9
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            System.out.println("------------------------Contenido clasificado------------------");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println("La sonda " + unmanned3.getName()
+                                    + " fue un proyecto ejecutado por " + unmanned3.getMaker());
                             unmanned3.purpose();
-                            System.out.println(unmanned3.getName()
-                                    + " fue la primera lanzadera fabricada en " + unmanned3.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + unmanned3.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + unmanned3.getActualState());
+                                    + "\nActualmente se encuentra: " + unmanned3.getActualState()
+                                    + "\nCuerpo celeste estudiado: " + "Plutón"
+                                    + "\nSe desplazo a " + unmanned3.getSpeed()
+                                    + "\nTardó más " + unmanned3.getYearArrive() + " años en llegar a su destino");
                             unmanned3.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         case 4:
                             Unmanned unmanned4 = new Unmanned(
@@ -333,14 +365,20 @@ public class Main {
                                     9
                             );
                             JOptionPane.showMessageDialog(null, " ¡Información clasificada! ");
-                            System.out.println("------------------------Contenido clasificado------------------");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
+                            System.out.println("La sonda " + unmanned4.getName()
+                                    + " fue un proyecto ejecutado en conjunto por " + unmanned4.getMaker());
                             unmanned4.purpose();
-                            System.out.println(unmanned4.getName()
-                                    + " fue la primera lanzadera fabricada en " + unmanned4.getMaker());
-                            System.out.println("------------------------Datos de la nave------------------");
                             System.out.println("Esta nave fue lanzada en el año de: " + unmanned4.getLaunchYear()
-                                    + "\nactualmente se encuentra: " + unmanned4.getActualState());
+                                    + "\nActualmente se encuentra: " + unmanned4.getActualState()
+                                    + "\nCuerpo celeste estudiado: " + "Sol"
+                                    + "\nSe desplazo a " + unmanned4.getSpeed()
+                                    + "\nTardó más " + unmanned4.getYearArrive() + " años en llegar a su destino");
                             unmanned4.fuelType();
+                            System.out.println("");
+                            System.out.println("------------------------Características y datos generales---------------------------------------");
+                            System.out.println("");
                             break;
                         default:
                             System.out.println("La opción no existe");
@@ -350,7 +388,7 @@ public class Main {
 
                 case 4:
                     default:
-                        JOptionPane.showMessageDialog(null, "Mantenga la información con cautela\n"
+                        JOptionPane.showMessageDialog(null, "Mantenga la información con discreción\n"
                                 + "               Hasta Pronto          "  );
                         System.exit(0);
             }
