@@ -2,8 +2,10 @@ package classification;
 
 import lombok.Data;
 
+import java.util.Scanner;
+
 @Data
-public class Shuttle extends Spaceship{
+public class Shuttle extends Spaceship {
 
     private int push;
     private int shipWeight;
@@ -18,11 +20,12 @@ public class Shuttle extends Spaceship{
 
     @Override
     public void purpose() {
-
+        System.out.println("Su objetivo es lanzar una carga útil al espacio");
     }
 
     @Override
     public void fuelType() {
-
+        System.out.println("Estos cohetes impulsores funcionan mediante combustible químico sólido o propelente líquido");
     }
+
 }
