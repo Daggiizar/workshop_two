@@ -5,7 +5,12 @@ import java.util.Scanner;
 
 public class Main {
 
+    /**
+     * Representa el punto de entrada de la aplicacion
+     * @param args Datos de entrada desde la consola
+     */
     public static void main(String[] args) {
+
 
         int seleccion = 0;
         do {
