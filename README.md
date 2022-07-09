@@ -11,6 +11,8 @@ Whorkshop sofka Canteras 2
 
 * Se encuentra una clase Main el cual es el punto de entrada de la aplicación para ejecutar por consola un menú el cual contiene las diferentes naves.
 
+* Utilice la librería para Java Lombok para reducir código a través de anotaciones, mas especifico Getters and Setters
+
 ***
 
 ### DANIEL ZÁRATE - 2022
